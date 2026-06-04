@@ -127,6 +127,33 @@ a:hover { text-decoration: underline; }
 
 .hero-bio { color: var(--text-muted); max-width: 520px; margin-bottom: 32px; }
 
+/* ── Coordonnées ── */
+.coords-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px;
+}
+.coord-item {
+  display: flex; align-items: flex-start; gap: 14px;
+  background: white; border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px;
+}
+.coord-icon { font-size: 1.3rem; margin-top: 2px; }
+.coord-item strong { display: block; font-size: .8rem; color: var(--text-muted); margin-bottom: 3px; text-transform: uppercase; letter-spacing: .04em; }
+.coord-item a, .coord-item span { color: var(--text); font-weight: 500; font-size: .95rem; }
+.coord-item a:hover { color: var(--primary); text-decoration: none; }
+
+.hero-contacts {
+  display: flex; flex-wrap: wrap; gap: 10px 20px;
+  margin-bottom: 24px;
+}
+.hero-contact-item {
+  font-size: .88rem; color: var(--text-muted); font-weight: 500;
+  display: flex; align-items: center; gap: 5px;
+  text-decoration: none;
+}
+.hero-contact-item:hover { color: var(--primary); text-decoration: none; }
+
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
 
 .hero-avatar {
