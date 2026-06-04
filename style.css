@@ -218,6 +218,8 @@ a:hover { text-decoration: underline; }
 .timeline-content ul { list-style: disc; padding-left: 18px; color: var(--text-muted); font-size: .92rem; }
 .timeline-content ul li { margin-bottom: 4px; }
 .timeline-content p { color: var(--text-muted); font-size: .92rem; }
+.edu-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.degree-note { font-size: .8rem; font-weight: 400; color: var(--text-muted); }
 
 /* ── Skills ── */
 .skills-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px; }
